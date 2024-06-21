@@ -15,6 +15,7 @@
 		1AE327142C1E20A5002E892D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE327122C1E20A5002E892D /* LaunchScreen.storyboard */; };
 		1AE3271D2C1E22BA002E892D /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3271C2C1E22BA002E892D /* TodoItem.swift */; };
 		1AE3271F2C1E28AA002E892D /* Importance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3271E2C1E28AA002E892D /* Importance.swift */; };
+		1AE327212C1E2AAF002E892D /* TodoItem + JSON parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE327202C1E2AAF002E892D /* TodoItem + JSON parsing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1AE327152C1E20A5002E892D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AE3271C2C1E22BA002E892D /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 		1AE3271E2C1E28AA002E892D /* Importance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Importance.swift; sourceTree = "<group>"; };
+		1AE327202C1E2AAF002E892D /* TodoItem + JSON parsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoItem + JSON parsing.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				1AE3271C2C1E22BA002E892D /* TodoItem.swift */,
 				1AE3271E2C1E28AA002E892D /* Importance.swift */,
+				1AE327202C1E2AAF002E892D /* TodoItem + JSON parsing.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE327212C1E2AAF002E892D /* TodoItem + JSON parsing.swift in Sources */,
 				1AE3270C2C1E20A4002E892D /* ViewController.swift in Sources */,
 				1AE327082C1E20A4002E892D /* AppDelegate.swift in Sources */,
 				1AE3271F2C1E28AA002E892D /* Importance.swift in Sources */,

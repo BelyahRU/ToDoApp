@@ -13,7 +13,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        if let todoItem = TodoItem.parse(json: [
+            "id": "1",
+            "text": "Buy groceries",
+            "importance": "обычная",
+            "deadline": "2022-04-30",
+            "IsTaskDone": false,
+            "creationDate": "2012-04-21",
+            "modifiedDate": nil
+        ]) {
+            print("OK")
+        } else {
+            print("fuck")
+        }
         return true
     }
 
